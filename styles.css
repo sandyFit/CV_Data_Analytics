@@ -118,7 +118,7 @@ body {
 }
 
 .article2 {
-    width: 30%;
+    width: 30rem;
 }
 
 .figure {
@@ -162,6 +162,7 @@ body {
 
     .header__banner .title {
         font-size: 2rem;    
+        margin-left: 1.5rem;
     }
 
     .personal__info,
@@ -170,8 +171,7 @@ body {
         flex-direction: column;
         justify-content: left;
     }
-
-    
+   
     .email,
     .location,
     .relocate {
@@ -185,7 +185,7 @@ body {
     .articles__container {
         width: 90%;
         padding: 1rem;
-        margin: 0;
+        margin-left: 2rem;
     }
 
     .article {
@@ -196,13 +196,13 @@ body {
         width: 90%;
     }
 
-  
-
-    /* .figure {
-        width: 15rem;
+    .article__,
+    .article2__ {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3rem;
     }
 
-    .experiencia .title1 {
-        width: 15rem;
-    } */
 }
