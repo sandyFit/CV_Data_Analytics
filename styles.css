@@ -155,9 +155,13 @@ body {
         margin: 0;
     }
 
+    .header__banner{
+        margin-bottom: 2rem;
+        text-align: left;
+    }
 
     .header__banner .title {
-        font-size: 2rem;
+        font-size: 2rem;    
     }
 
     .personal__info,
@@ -178,8 +182,27 @@ body {
         padding: 1.2rem;
     }
 
-    .article,
-    .article2 {
+    .articles__container {
+        width: 90%;
+        padding: 1rem;
+        margin: 0;
+    }
+
+    .article {
         width: 100%;
     }
+
+    .article2 {
+        width: 90%;
+    }
+
+  
+
+    /* .figure {
+        width: 15rem;
+    }
+
+    .experiencia .title1 {
+        width: 15rem;
+    } */
 }
