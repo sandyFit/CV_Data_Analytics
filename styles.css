@@ -118,7 +118,7 @@ body {
 }
 
 .article2 {
-    width: 30rem;
+    width: 30%;
 }
 
 .figure {
@@ -157,7 +157,6 @@ body {
 
     .header__banner{
         margin-bottom: 2rem;
-        text-align: left;
     }
 
     .header__banner .title {
